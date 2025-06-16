@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sectionMovie {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  align-items: flex-start;
+}
+h1 {
+  margin: 30px auto 0px;
+  text-align: center;
+  padding: 0;
+  font-size: 64px;
+  color: darkgray;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+h1:hover,
+h1:focus {
+  color: black;
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: darkgray;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover,
+button:focus {
+  background-color: black;
+}
+
+.items {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0;
+}
+
+.everyItem {
+  padding: 0;
+  width: 200px;
+  height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 10px 10px 7px -2px rgba(0, 0, 0, 0.12),
+    10px 10px 7px -2px rgba(0, 0, 0, 0.14),
+    10px 10px 7px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.everyItem:hover,
+.everyItem:focus {
+  transform: scale(1.1);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  box-sizing: border-box;
+}
+
+.everyTitle {
+  display: flex;
+  position: absolute;
+  top: 188px;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  color: #e0e0f0b3;
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgb(50, 50, 53, 0.5);
+  border-radius: 0px 0px 20px 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 7px -2px rgba(0, 0, 0, 0.12),
+    10px 10px 7px -2px rgba(0, 0, 0, 0.14),
+    10px 10px 7px -2px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+.everyTitle:focus,
+.everyTitle:hover {
+  color: white;
+}

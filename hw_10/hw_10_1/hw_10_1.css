@@ -1,0 +1,10 @@
+#text {
+  width: 30vw;
+  font-size: 20px;
+}
+.button {
+  background-color: aquamarine;
+  width: 30vw;
+  height: 50px;
+  border-radius: 20px;
+}

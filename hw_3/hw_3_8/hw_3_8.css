@@ -1,0 +1,36 @@
+.users-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.user-block:hover {
+  background-color: #ddf7d7;
+  border-color: #00acc1;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.user-block {
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.address-block {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+h2 {
+  margin: 0 0 20px;
+}
+
+h3 {
+  margin: 0 0 20px;
+  color: #333;
+}

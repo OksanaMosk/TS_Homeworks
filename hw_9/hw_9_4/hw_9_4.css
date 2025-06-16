@@ -1,0 +1,20 @@
+.item {
+  background-color: rgb(165, 192, 200);
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 20px;
+  color: rgb(99, 37, 223);
+  text-align: center;
+  text-transform: uppercase;
+}
+.description {
+  font-size: 14px;
+  color: rgb(42, 21, 86);
+}

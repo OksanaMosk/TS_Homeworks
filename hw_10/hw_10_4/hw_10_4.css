@@ -1,0 +1,12 @@
+div {
+  background-color: rgb(127, 255, 191);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 20px;
+  font-size: 76px;
+  color: rgba(0, 128, 0, 0.8);
+}
