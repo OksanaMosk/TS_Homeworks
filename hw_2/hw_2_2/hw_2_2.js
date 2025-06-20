@@ -1,15 +1,16 @@
+"use strict";
 let book1 = {
-  title: "Harry Potter",
-  pageCount: 348,
-  genre: "Fantasy",
+    title: "Harry Potter",
+    pageCount: 348,
+    genre: "Fantasy",
 };
 let book2 = {
-  title: "Pinocchio",
-  pageCount: 125,
-  genre: "Fairy Tale",
+    title: "Pinocchio",
+    pageCount: 125,
+    genre: "Fairy Tale",
 };
 let book3 = {
-  title: "It",
-  pageCount: 453,
-  genre: "Horror",
+    title: "It",
+    pageCount: 453,
+    genre: "Horror",
 };

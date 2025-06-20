@@ -1,16 +1,15 @@
-"use strict";
-let array = [
-    1000,
-    "Oksy",
-    null,
-    false,
-    undefined,
-    NaN,
-    ["Vasya", "Petya", "Nata"],
-    { key: 1, name: "Ola" },
-    123,
-    "cards",
-    true,
+let array: any[] = [
+  1000,
+  "Oksy",
+  null,
+  false,
+  undefined,
+  NaN,
+  ["Vasya", "Petya", "Nata"],
+  { key: 1, name: "Ola" },
+  123,
+  "cards",
+  true,
 ];
 console.log(array[0]);
 console.log(array[1]);
