@@ -1,12 +1,12 @@
-let emptyArray = [];
-while (emptyArray.length < 10) {
-  let randomNumber = Math.floor(Math.random() * 30);
-  emptyArray.push(randomNumber);
+"use strict";
+let emptyArrayAdd320 = [];
+while (emptyArrayAdd320.length < 10) {
+    let randomNumber = Math.floor(Math.random() * 30);
+    emptyArrayAdd320.push(randomNumber);
 }
-console.log("emptyArray:", emptyArray);
-
-let newArray = [];
-for (let i = 0; i < emptyArray.length; i++) {
-  newArray.push(emptyArray[i]);
+console.log("emptyArrayAdd320:", emptyArrayAdd320);
+let newArrayAdd320 = [];
+for (let i = 0; i < emptyArrayAdd320.length; i++) {
+    newArrayAdd320.push(emptyArrayAdd320[i]);
 }
-console.log("newArray:", newArray);
+console.log("newArrayAdd320:", newArrayAdd320);

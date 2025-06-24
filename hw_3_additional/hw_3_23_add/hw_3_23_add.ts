@@ -1,8 +1,9 @@
-"use strict";
-let letters = ["a", "b", "c"];
-let wordAdd323 = "";
+let letters: string[] = ["a", "b", "c"];
+let wordAdd323: string = "";
+
 for (const letter of letters) {
-    wordAdd322 += letter;
+  wordAdd323 += letter;
 }
+
 document.write(wordAdd323);
 console.log("wordAdd323:", wordAdd323);
