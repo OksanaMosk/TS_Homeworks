@@ -1,17 +1,18 @@
-let array = [
-  1000,
-  "juice",
-  null,
-  false,
-  "tea",
-  NaN,
-  undefined,
-  true,
-  "strawberry",
-  123567,
+"use strict";
+let arrayAdd39 = [
+    1000,
+    "juice",
+    null,
+    false,
+    "tea",
+    NaN,
+    undefined,
+    true,
+    "strawberry",
+    123567,
 ];
-for (let i = 0; i < array.length; i++) {
-  if (typeof array[i] === "string") {
-    console.log(array[i]);
-  }
+for (let i = 0; i < arrayAdd39.length; i++) {
+    if (typeof arrayAdd39[i] === "string") {
+        console.log(arrayAdd39[i]);
+    }
 }

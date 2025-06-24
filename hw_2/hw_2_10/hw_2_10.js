@@ -5,7 +5,7 @@ if (firstStringNumber !== null && secondStringNumber !== null) {
     const secondNumber = +secondStringNumber;
     const firstNumber = +firstStringNumber;
     if (isNaN(firstNumber) || isNaN(secondNumber)) {
-        console.log(" enter valid numbers");
+        console.log("Please enter valid numbers.");
     }
     else {
         if (firstNumber > secondNumber) {

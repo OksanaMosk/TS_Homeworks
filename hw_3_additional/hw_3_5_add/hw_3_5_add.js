@@ -1,15 +1,16 @@
-let array = [
-  "milk",
-  "juice",
-  "milkshake",
-  "shake",
-  "coffee",
-  "tea",
-  "non-stop",
-  "revo",
-  "beer",
-  "tequila",
+"use strict";
+let arrayAdd35 = [
+    "milk",
+    "juice",
+    "milkshake",
+    "shake",
+    "coffee",
+    "tea",
+    "non-stop",
+    "revo",
+    "beer",
+    "tequila",
 ];
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
+for (let i = 0; i < arrayAdd35.length; i++) {
+    console.log(arrayAdd35[i]);
 }

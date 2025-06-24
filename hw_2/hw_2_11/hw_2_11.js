@@ -1,5 +1,6 @@
+"use strict";
 let x;
 if (!x) {
-  x = "default";
+    x = "default";
 }
 console.log(x);

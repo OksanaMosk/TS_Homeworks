@@ -1,17 +1,18 @@
-let array = [
-  1000,
-  "juice",
-  null,
-  false,
-  "tea",
-  NaN,
-  undefined,
-  true,
-  "strawberry",
-  123567,
+"use strict";
+let arrayAdd38 = [
+    1000,
+    "juice",
+    null,
+    false,
+    "tea",
+    NaN,
+    undefined,
+    true,
+    "strawberry",
+    123567,
 ];
-for (let i = 0; i < array.length; i++) {
-  if (typeof array[i] === "number" && !isNaN(array[i])) {
-    console.log(array[i]);
-  }
+for (let i = 0; i < arrayAdd38.length; i++) {
+    if (typeof arrayAdd38[i] === "number" && !isNaN(arrayAdd38[i])) {
+        console.log(arrayAdd38[i]);
+    }
 }
