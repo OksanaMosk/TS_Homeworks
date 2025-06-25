@@ -2,7 +2,7 @@
 let letters = ["a", "b", "c"];
 let wordAdd323 = "";
 for (const letter of letters) {
-    wordAdd322 += letter;
+    wordAdd323 += letter;
 }
 document.write(wordAdd323);
 console.log("wordAdd323:", wordAdd323);

@@ -1,6 +1,5 @@
-"use strict";
-function writer46(text) {
-    document.write(`
+function writer46(text: string): void {
+  document.write(`
     <ul>
     <li>${text}</li>
     <li>${text}</li>

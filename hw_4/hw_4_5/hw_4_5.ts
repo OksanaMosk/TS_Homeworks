@@ -1,6 +1,5 @@
-"use strict";
-function writer(text) {
-    document.write(`<p>${text}</p>`);
+function writer(text: string): void {
+  document.write(`<p>${text}</p>`);
 }
 writer("1Lorem ipsum dolor sit amet, consectetur");
 writer("2Lorem ipsum dolor sit amet, consectetur");

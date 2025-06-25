@@ -1,9 +1,10 @@
+"use strict";
 function sum(arr) {
-  let result = 0;
-  for (let i = 0; i < arr.length; i++) {
-    result += arr[i];
-  }
-  console.log(result);
-  return result;
+    let result = 0;
+    for (const element of arr) {
+        result += element;
+    }
+    console.log(result);
+    return result;
 }
 sum([6, 30, 50, 10, 4]);
