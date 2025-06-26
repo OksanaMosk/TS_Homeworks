@@ -1,4 +1,5 @@
-const cylinderSquare = (radius, height) => {
-  return 2 * Math.PI * radius * height;
+"use strict";
+const cylinderSquare53 = (radius, height) => {
+    return 2 * Math.PI * radius * (radius + height);
 };
-console.log(cylinderSquare(2, 3));
+console.log(cylinderSquare53(2, 3));

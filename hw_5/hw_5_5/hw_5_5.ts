@@ -1,6 +1,5 @@
-"use strict";
-const writer55 = (text) => {
-    document.write(`<p>${text}</p>`);
+const writer55 = (text: string): void => {
+  document.write(`<p>${text}</p>`);
 };
 writer55("1Lorem ipsum dolor sit amet, consectetur");
 writer55("2Lorem ipsum dolor sit amet, consectetur");

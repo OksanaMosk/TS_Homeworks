@@ -1,4 +1,5 @@
-const roundSquare = (radius) => {
-  return Math.PI * radius * radius;
+"use strict";
+const roundSquare52 = (radius) => {
+    return Math.PI * radius * radius;
 };
-console.log(roundSquare(2));
+console.log(roundSquare52(2));

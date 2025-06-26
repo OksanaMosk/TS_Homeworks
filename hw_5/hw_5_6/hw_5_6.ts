@@ -1,6 +1,5 @@
-"use strict";
-const writer56 = (text) => {
-    document.write(`
+const writer56 = (text: string): void => {
+  document.write(`
       <ul>
       <li>${text}</li>
       <li>${text}</li>

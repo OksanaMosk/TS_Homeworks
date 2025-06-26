@@ -1,4 +1,5 @@
-const square = (a, b) => {
-  return a * b;
+"use strict";
+const square51 = (a, b) => {
+    return a * b;
 };
-console.log(square(50, 4));
+console.log(square51(50, 4));
