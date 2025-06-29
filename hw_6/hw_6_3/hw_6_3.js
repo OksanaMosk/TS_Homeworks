@@ -1,8 +1,8 @@
-let str1 = "HELLO WORLD";
-let str2 = "LOREM IPSUM";
-let str3 = "JAVASCRIPT IS COOL";
-
-const lengthString = [str1, str2, str3];
-for (const item of lengthString) {
-  console.log(item.toLowerCase());
+"use strict";
+let str1_63 = "HELLO WORLD";
+let str2_63 = "LOREM IPSUM";
+let str3_63 = "JAVASCRIPT IS COOL";
+const lengthString63 = [str1_63, str2_63, str3_63];
+for (const item of lengthString63) {
+    console.log(item.toLowerCase());
 }

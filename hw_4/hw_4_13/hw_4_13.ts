@@ -1,6 +1,8 @@
+type CurrencyValuesType = { currency: string; value: number };
+
 function exchange(
   sumUAH: number,
-  currencyValues: { currency: string; value: number }[],
+  currencyValues: CurrencyValuesType[],
   exchangeCurrency: string
 ): number {
   for (let i = 0; i < currencyValues.length; i++) {
