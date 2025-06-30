@@ -1,9 +1,7 @@
 "use strict";
 let localString = localStorage.getItem("number");
-localString !== null ?
-    let : ;
-currentNumber: number = +localStorage.getItem("number");
+let currentNumber = localString !== null ? +localString : 0;
 currentNumber += 1;
-localStorage.setItem("number", currentNumber);
+localStorage.setItem("number", currentNumber.toString());
 let block = document.getElementsByTagName("div")[0];
-block.innerText = currentNumber;
+block.innerText = currentNumber.toString();

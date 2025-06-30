@@ -1,11 +1,12 @@
-let localString = localStorage.getItem("number");
+let localString: string | null = localStorage.getItem("number");
 
- localString !== null ?
-    let currentNumber:number = +localStorage.getItem("number");
+let currentNumber: number = localString !== null ? +localString : 0;
 
 currentNumber += 1;
 
-localStorage.setItem("number", currentNumber);
+localStorage.setItem("number", currentNumber.toString());
 
-let block: HTMLDivElement = document.getElementsByTagName("div")[0];
-block.innerText = currentNumber;
+let block: HTMLDivElement = document.getElementsByTagName(
+  "div"
+)[0] as HTMLDivElement;
+block.innerText = currentNumber.toString();

@@ -12,6 +12,7 @@ body {
 .cart_item {
   display: flex;
   width: 550px;
+  min-width: 550px;
   height: 350px;
   background-color: darkgrey;
   flex-direction: column;
@@ -48,7 +49,7 @@ body {
 }
 
 .div_price div:nth-child(2) {
-  color: red;
+  color: orange;
 }
 
 .list_products {
@@ -79,10 +80,10 @@ h6 {
 .cart_img {
   padding: 0;
   box-sizing: border-box;
-  width: 80px;
+  width: 60px;
   height: 60px;
   object-fit: cover;
 }
 .product_item div:nth-child(7) {
-  color: red;
+  color: orange;
 }
