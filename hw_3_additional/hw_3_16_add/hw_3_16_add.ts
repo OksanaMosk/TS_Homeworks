@@ -1,12 +1,10 @@
-type AutorType = string[];
-type GenresType = string[];
-type BookType = {
+type BookType316 = {
   title: string;
   pages: number;
-  authors: AutorType;
-  genres: GenresType;
+  authors: string[];
+  genres: string[];
 };
-let books: BookType[] = [
+let books: BookType316[] = [
   {
     title: "The Book Thief",
     pages: 550,
@@ -77,7 +75,7 @@ let books: BookType[] = [
   },
 ];
 
-let biggestBook: BookType = books[0];
+let biggestBook: BookType316 = books[0];
 
 for (let i = 0; i < books.length; i++) {
   if (books[i].pages > biggestBook.pages) {
@@ -88,7 +86,7 @@ for (let i = 0; i < books.length; i++) {
 }
 
 let biggestGenre: number = books[0].genres.length;
-let biggestGenreBook: BookType = books[0];
+let biggestGenreBook: BookType316 = books[0];
 for (let i = 0; i < books.length; i++) {
   if (books[i].genres.length > biggestGenre) {
     biggestGenre = books[i].genres.length;
@@ -99,7 +97,7 @@ document.write(`Найбільше Жанрів: "${biggestGenreBook.title}" <br
 console.log(biggestGenreBook);
 
 let largeTitle: number = books[0].title.length;
-let largeTitleBook: BookType = books[0];
+let largeTitleBook: BookType316 = books[0];
 for (let i = 0; i < books.length; i++) {
   if (books[i].title.length > largeTitle) {
     largeTitle = books[i].title.length;

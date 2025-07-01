@@ -1,29 +1,41 @@
-"use strict";
-let q;
-let r;
-let s;
-let d;
-let e;
-let f;
-let g;
+let q: string;
+let r: string;
+let s: string;
+let d: string;
+let e: number;
+let f: number;
+let g: number;
 let k;
-let l;
-let m;
-let n;
-let o;
-let p;
+let l: number;
+let m: number;
+let n: number;
+let o: boolean;
+let p: boolean;
+
 q = "hello";
+
 r = "owu";
+
 s = "com";
+
 d = "ua";
+
 e = 1;
+
 f = 10;
+
 g = -999;
+
 k = 123;
+
 l = 3.14;
+
 m = 2.7;
+
 n = 16;
+
 o = true;
+
 p = false;
 console.log(" q:", q);
 console.log(" r:", r);

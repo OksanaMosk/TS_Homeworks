@@ -1,21 +1,36 @@
-interface ISomeType {
+interface SomeType {
   id: number;
   name: string;
   ingredients: string[];
+  instructions: string[];
+  prepTimeMinutes: number;
+  cookTimeMinutes: number;
+  servings: number;
+  difficulty: string;
+  cuisine: string;
+  caloriesPerServing: number;
+  tags: string[];
+  userId: number;
+  image: string;
+  rating: number;
+  reviewCount: number;
+  mealType: string[];
 }
 
 function foobar<T>(url: string): Promise<T> {
-    return fetch(url)
-    .then((value) => value.json())
+  return fetch(url)
     .then((response) => {
-        console.log(response);
-        return response
+      if (!response.ok) {
+        throw new Error(`Http Error, status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((data: T) => {
+      console.log(data);
+      return data;
     });
 }
 
-foobar<ISomeType>("https://dummyjson.com/recipes"){
-    .then((recipes) => {
-        co
-    }
-
-}
+foobar<{ recipes: SomeType[] }>("https://dummyjson.com/recipes").then((data) =>
+  console.log(" recipesObj:", data.recipes)
+);

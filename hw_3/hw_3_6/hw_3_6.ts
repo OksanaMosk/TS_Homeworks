@@ -40,7 +40,6 @@ let products: ProductType[] = [
 
     image:
       "https://cdn.pixabay.com/photo/2020/08/19/17/48/disposable-5501650_1280.jpg",
-    //   "https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png",
   },
 ];
 document.write("<ul>");

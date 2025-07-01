@@ -1,7 +1,7 @@
-type ValuesTemp = { morningTemp: number; dayTemp: number; nightTemp: number };
-type ValuesDay = { day: string; values: ValuesTemp };
+type TempType = { morningTemp: number; dayTemp: number; nightTemp: number };
+type ValuesDayType = { day: string; values: TempType };
 
-let temps: ValuesDay[] = [
+let temps: ValuesDayType[] = [
   { day: "Monday", values: { morningTemp: 20, dayTemp: 30, nightTemp: 22 } },
   { day: "Tuesday", values: { morningTemp: 21, dayTemp: 31, nightTemp: 23 } },
   { day: "Wednesday", values: { morningTemp: 19, dayTemp: 29, nightTemp: 21 } },

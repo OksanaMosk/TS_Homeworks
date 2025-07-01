@@ -7,7 +7,6 @@ let array: any[] = [
   NaN,
   ["Vasya", "Petya", "Nata"],
   { key: 1, name: "Ola" },
-  123,
   "cards",
   true,
 ];

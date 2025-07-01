@@ -1,9 +1,9 @@
-type Author = { name: string; age: number };
+type AuthorType = { name: string; age: number };
 type Book_2_3 = {
   title: string;
   pageCount: number;
   genre: string;
-  authors: Author[];
+  authors: AuthorType[];
 };
 
 let book11: Book_2_3 = {

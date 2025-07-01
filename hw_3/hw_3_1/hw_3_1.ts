@@ -1,6 +1,6 @@
-type arrayType = { description: string; image: string };
+type ArrayType = { description: string; image: string };
 
-const arrayFlower: arrayType[] = [
+const arrayFlower: ArrayType[] = [
   {
     description: "Gerbera",
     image:

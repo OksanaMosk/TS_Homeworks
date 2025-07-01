@@ -1,5 +1,5 @@
-type user_2_4 = { name: string; username: string; password: string };
-let users: user_2_4[] = [
+type UserType_2_4 = { name: string; username: string; password: string };
+let users: UserType_2_4[] = [
   { name: "Ola", username: "ola@gmail.com", password: "123321" },
   { name: "Nata", username: "nata123", password: "111" },
   { name: "Musya", username: "musyaka", password: "654" },

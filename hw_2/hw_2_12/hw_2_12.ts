@@ -1,5 +1,5 @@
-type courseType = { title: string; monthDuration: number };
-let coursesAndDurationArray: courseType[] = [
+type CourseType = { title: string; monthDuration: number };
+let coursesAndDurationArray: CourseType[] = [
   { title: "JavaScript Complex", monthDuration: 5 },
   { title: "Java Complex", monthDuration: 6 },
   { title: "Python Complex", monthDuration: 6 },
@@ -8,7 +8,7 @@ let coursesAndDurationArray: courseType[] = [
   { title: "Frontend", monthDuration: 4 },
 ];
 for (let i = 0; i < coursesAndDurationArray.length; i++) {
-  const duration: courseType = coursesAndDurationArray[i];
+  const duration: CourseType = coursesAndDurationArray[i];
   duration.monthDuration > 5
     ? console.log("Super")
     : console.log("It's Problem");
