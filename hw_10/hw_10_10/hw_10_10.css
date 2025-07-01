@@ -58,14 +58,13 @@ button:focus {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 40px;
   padding: 0;
 }
 
 .everyItem {
   padding: 0;
-  min-width: 200px;
-  flex: 1 1 calc(20% - 100px);
+  width: 200px;
   height: 250px;
   position: relative;
   display: flex;
